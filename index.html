@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brand — Reel Preview</title>
+  <meta name="description" content="Static fashion store preview matching the Reel Figma layout." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">Brand</a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="menu-button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+      <a href="#shop">Shop</a>
+      <a href="#sales">Sales</a>
+      <a href="#new">New</a>
+    </nav>
+
+    <div class="nav-actions" aria-label="Quick actions">
+      <button class="language">En</button>
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="M20 20l-4.2-4.2"></path>
+        </svg>
+      </button>
+      <button class="icon-btn" aria-label="Account">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4.5 21c1.7-4.1 4.2-6.1 7.5-6.1s5.8 2 7.5 6.1"></path>
+        </svg>
+      </button>
+      <button class="icon-btn" aria-label="Wishlist">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20.5 7.3 12 19.5 3.5 7.3 7.8 4l4.2 5.2L16.2 4z"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero" id="new" aria-label="Black friday sale hero">
+      <img class="hero-image" src="assets/hero-model.jpg" alt="Model sitting on a chair in luxury outfit" />
+      <div class="hero-text">
+        <h1>Little touch to<br>make it luxury</h1>
+        <p>Up to 50% off black friday</p>
+      </div>
+      <a class="btn hero-btn" href="#shop">Shop Now</a>
+    </section>
+
+    <section class="reel-layout" id="sales">
+      <article class="vibe-card">
+        <img src="assets/build-vibe.jpg" alt="Burgundy top and cream trousers outfit" />
+        <div class="vibe-content">
+          <h2>Build your<br>Vibe</h2>
+          <a class="btn" href="#shop">Shop Now</a>
+        </div>
+      </article>
+
+      <section class="seller-block" id="shop">
+        <h2>Best Seller :</h2>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="assets/product-polo.jpg" alt="Polo shirt on chair" />
+            <h3>Polo</h3>
+            <p>$43.99</p>
+          </article>
+
+          <article class="product-card">
+            <img src="assets/product-knit-polo.jpg" alt="Knit polo on hanger" />
+            <h3>Knit Polo</h3>
+            <p>$74.99</p>
+          </article>
+
+          <article class="product-card">
+            <img src="assets/product-trousers.jpg" alt="Trousers on clothing rail" />
+            <h3>Trousers</h3>
+            <p>$71.99</p>
+          </article>
+
+          <article class="product-card">
+            <img src="assets/product-textured-polo.jpg" alt="Textured polo on hanger" />
+            <h3>Textured Polo</h3>
+            <p>$25.99</p>
+          </article>
+
+          <article class="product-card extra-product">
+            <img src="assets/product-classic-polo.jpg" alt="Classic polo" />
+            <h3>Classic Polo</h3>
+            <p>$67.99</p>
+          </article>
+
+          <article class="product-card extra-product">
+            <img src="assets/product-wide-pants.jpg" alt="Wide pants" />
+            <h3>Wide Pants</h3>
+            <p>$51.99</p>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
