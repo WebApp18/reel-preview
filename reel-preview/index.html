@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brand — Fashion Preview</title>
+  <meta name="description" content="Static fashion e-commerce preview built from the Reel Figma design." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">Brand</a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="menu-button" aria-label="Open menu"><span></span><span></span></button>
+      <a href="#shop">Shop</a>
+      <a href="#sales">Sales</a>
+      <a href="#new">New</a>
+    </nav>
+
+    <div class="nav-actions" aria-label="Quick actions">
+      <button class="pill">En</button>
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
+      </button>
+      <button class="icon-btn" aria-label="Account">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1.6-4 4.3-6 8-6s6.4 2 8 6"></path></svg>
+      </button>
+      <button class="icon-btn" aria-label="Wishlist">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 11.1 12 20l-8.8-8.9a5.3 5.3 0 0 1 0-7.4 5 5 0 0 1 7.2 0L12 5.3l1.6-1.6a5 5 0 0 1 7.2 0 5.3 5.3 0 0 1 0 7.4z"></path></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="new">
+      <img src="assets/hero-model.jpg" alt="Fashion model sitting on a chair" />
+      <div class="hero-copy">
+        <h1>Little touch to<br />make it luxury</h1>
+        <p>Up to 50% off black friday</p>
+      </div>
+      <a class="cta hero-cta" href="#shop">Shop Now</a>
+    </section>
+
+    <section class="split-section" id="sales">
+      <article class="vibe-card">
+        <img src="assets/build-vibe.jpg" alt="Burgundy top and cream trousers outfit" />
+        <div class="vibe-overlay">
+          <h2>Build your<br />Vibe</h2>
+          <a class="cta" href="#shop">Shop Now</a>
+        </div>
+      </article>
+
+      <section class="best-sellers" id="shop">
+        <div class="section-head">
+          <h2>Best Seller :</h2>
+          <a href="#all-products">View all</a>
+        </div>
+        <div class="product-grid compact-grid">
+          <article class="product-card">
+            <img src="assets/product-polo.jpg" alt="Red polo shirt on chair" />
+            <h3>Polo</h3>
+            <p>$43.99</p>
+          </article>
+          <article class="product-card">
+            <img src="assets/product-knit-polo.jpg" alt="Knit polo outfit" />
+            <h3>Knit Polo</h3>
+            <p>$74.99</p>
+          </article>
+          <article class="product-card">
+            <img src="assets/product-trousers.jpg" alt="Brown trousers on clothing rail" />
+            <h3>Trousers</h3>
+            <p>$71.99</p>
+          </article>
+          <article class="product-card">
+            <img src="assets/product-textured-polo.jpg" alt="Textured brown polo on hanger" />
+            <h3>Textured Polo</h3>
+            <p>$25.99</p>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <section class="all-products" id="all-products">
+      <div class="section-head wide-head">
+        <div>
+          <span class="eyebrow">New drops</span>
+          <h2>Shop the edit</h2>
+        </div>
+        <a href="#">Filter</a>
+      </div>
+
+      <div class="product-grid full-grid">
+        <article class="product-card">
+          <img src="assets/product-polo.jpg" alt="Red polo shirt on chair" />
+          <h3>Polo</h3>
+          <p>$43.99</p>
+        </article>
+        <article class="product-card">
+          <img src="assets/product-knit-polo.jpg" alt="Knit polo outfit" />
+          <h3>Knit Polo</h3>
+          <p>$74.99</p>
+        </article>
+        <article class="product-card">
+          <img src="assets/product-trousers.jpg" alt="Brown trousers on clothing rail" />
+          <h3>Trousers</h3>
+          <p>$71.99</p>
+        </article>
+        <article class="product-card">
+          <img src="assets/product-textured-polo.jpg" alt="Textured brown polo on hanger" />
+          <h3>Textured Polo</h3>
+          <p>$25.99</p>
+        </article>
+        <article class="product-card">
+          <img src="assets/product-classic-polo.jpg" alt="Classic polo on dark background" />
+          <h3>Classic Polo</h3>
+          <p>$67.99</p>
+        </article>
+        <article class="product-card">
+          <img src="assets/product-wide-pants.jpg" alt="Wide cream pants on hanger" />
+          <h3>Wide Pants</h3>
+          <p>$51.99</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h2>Brand</h2>
+      <p>Minimal luxury essentials for daily outfits.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#shop">Shop</a>
+      <a href="#sales">Sales</a>
+      <a href="#new">New</a>
+      <a href="#">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
